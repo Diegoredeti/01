@@ -1,4 +1,5 @@
 const express = require('express');
+const { lstat } = require('fs');
 const app = express();
 
 const jogadores = ["José", "Maria", "João", "Marcos", "Fernanda"];
